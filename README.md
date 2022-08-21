@@ -16,7 +16,7 @@ Linux için;
     cd patika-dev-linkedin-clone
     code .
 # Live Demo
-[Demoyu Aç](https://sustaining-turquoise-queen.glitch.me)
+[Demoyu Aç](https://hazel-gravel-direction.glitch.me)
 
 # Contributing
 Pull requestler kabul edilir. Büyük değişiklikler için, lütfen önce neyi değiştirmek istediğiniz tartışmak için bir konu açınız.
