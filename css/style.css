@@ -1,6 +1,7 @@
 .navbarbg {
   height: 55px;
   background-color: white;
+  
 }
 
 input.searche {
@@ -10,24 +11,27 @@ input.searche {
   border: 0;
 }
 
-input.searche::placeholder {
-  font-size: 14px;
+input.searche::placeholder{
+  font-size: 16px;
   color: gray;
-  background-image: url(/bootstraplinkedinclone/assets/search-solid.svg);
+  background-image: url(/assets/search-solid.svg);
   background-repeat: no-repeat;
-  background-size: 7%;
+  background-size: 10%;
+  text-align: center;
 }
 
 .body {
   background-color: #f3f2ef;
+  align-items: center;
 }
 
 .menutext {
   font-size: 13px;
   font-family: Arial, Helvetica, sans-serif;
   color: gray;
-  margin-top: 5px;
+  margin-top: 10px;
   font-weight: lighter;
+  margin-right: 20px;
 }
 
 .menutext:hover {
@@ -47,6 +51,8 @@ button.mediatext:hover {
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
   color: #5f5f5f;
+  margin-top: 3px;
+
 }
 
 i {
@@ -60,12 +66,13 @@ i:hover {
 input.content {
   border-radius: 40px;
   height: 45px;
+  text-align:center;
 }
 input.content::placeholder {
   font-weight: bolder;
   font-size: 14px;
   font-family: Arial, Helvetica, sans-serif;
-  background-image: url(/bootstraplinkedinclone/assets/edit-regular.svg);
+  background-image: url(/assets/edit-regular.svg);
   background-repeat: no-repeat;
   background-size: auto;
 }
@@ -120,6 +127,7 @@ button.ref:hover {
   border-radius: 50%;
   width: 50px;
   height: 50px;
+  float: left;
 }
 .posttext {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
@@ -127,4 +135,5 @@ button.ref:hover {
   font-weight: bold;
   font-size: 14px;
   margin-left: 8px;
+  float: left;
 }
